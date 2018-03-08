@@ -20,7 +20,7 @@ class PageCategoryController extends ControllerBase
             ->setTargetPath("themes/admin/assets/js/combined-page-category.js")
             ->setTargetUri("themes/admin/assets/js/combined-page-category.js")
             ->join(true)
-            ->addJs($this->config->application->modulesDir."cms/views/js/page-category.js")
+            ->addJs($this->config->modules->addons."cms/views/js/page-category.js")
             ->addFilter(new \Phalcon\Assets\Filters\Jsmin());
     }
 
