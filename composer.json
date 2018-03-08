@@ -1,0 +1,33 @@
+{
+  "name": "mrcoco/phalms-cms",
+  "version": "0.1.12",
+  "title": "Phalms CMS Modules",
+  "description": "Phalms CMS - open source PHP CMS. build for Phalms core-modular .",
+  "type": "library",
+  "keywords": [
+    "phalcon",
+    "modules",
+    "modular",
+    "php"
+  ],
+  "homepage": "http://cempakaweb.com/",
+  "author": {
+    "name": "Dwi Agus Purwanto",
+    "url": "https://www.facebook.com/ghaouts"
+  },
+  "maintainers": [
+    {
+      "name": "Dwi Agus Purwanto",
+      "url": "https://www.facebook.com/ghaouts"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrcoco/phalms-cms"
+  },
+  "bugs": "https://github.com/mrcoco/phalms-cms/issues",
+  "license": "BSD-3-Clause",
+  "require": {
+    "composer/installers": "~1.0"
+  }  
+}
