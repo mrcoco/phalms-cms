@@ -26,6 +26,7 @@ class Module implements ModuleDefinitionInterface
             [
                 "Modules\\Cms\\Controllers" => __DIR__."/controllers/",
                 "Modules\\Cms\\Models"      => __DIR__."/models/",
+                "Modules\\Cms\\plugin"      => __DIR__."/plugin/",
                 "Modules\\User\\Models"      => $config->modules->core."user/models/",
                 "Modules\\Frontend\\Controllers" => $config->modules->core."frontend/controllers/",
             ]
